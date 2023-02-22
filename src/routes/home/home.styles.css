@@ -1,0 +1,266 @@
+body {
+  background-image: url(bg.jpg);
+}
+
+.home-container {
+  color: #fff;
+  height: 90vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.jumbo-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px 10px;
+}
+
+.jumbo-container h1 {
+  font-size: 6rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.jumbo-container h2 {
+  font-size: 1.25rem;
+  color: rgb(245, 138, 220);
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  margin: 0 auto 2rem auto;
+  max-width: 600px;
+}
+
+.jumbo-container a {
+  background: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  margin: 25px auto;
+  width: 150px;
+  text-align: center;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  color: rgb(135, 20, 108);
+  background: #85ec3b;
+}
+
+.jumbo-container a:hover {
+  transition: all 0.3s ease-in-out;
+  filter: brightness(80%);
+}
+
+.hunter,
+.by,
+.warm {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid blue; */
+  letter-spacing: 0;
+}
+
+.hunter span,
+.by span,
+.warm span {
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+  letter-spacing: 0;
+  float: left;
+}
+
+/* crazy css animation */
+
+@keyframes moving {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.one {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #ff7b90;
+}
+
+.two {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #fff83b;
+  animation-delay: 0.25s;
+}
+
+.three {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #e1922d;
+}
+
+.four {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #eb2d21;
+  animation-delay: 0.5s;
+}
+
+.five {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #61a631;
+}
+
+.six {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #a73bde;
+  animation-delay: 0.25s;
+}
+
+.seven {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #ffaeba;
+}
+
+.eight {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #382de1;
+  animation-delay: 0.5s;
+}
+
+.nine {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #fef840;
+}
+
+.nine {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #85ec3b;
+  animation-delay: 0.25s;
+}
+
+.ten {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #fff742;
+}
+
+.eleven {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #3fc6da;
+  animation-delay: 0.5s;
+}
+
+.twelve {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #e1922d;
+}
+.thirteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #61a631;
+  animation-delay: 0.25s;
+}
+
+.fourteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #ff7b90;
+}
+
+.fifteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #3fc6da;
+  animation-delay: 0.25s;
+}
+
+.sixteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #a73bde;
+  animation-delay: 0s;
+}
+
+.seventeen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #e1922d;
+  animation-delay: 0.25s;
+}
+
+.eightteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #eb2d21;
+  animation-delay: 0.5s;
+}
+
+.nineteen {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #85ec3b;
+  animation-delay: 0s;
+}
+
+.twenty {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #fff83b;
+  animation-delay: 0.25s;
+}
+
+.twentyone {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #61a631;
+  animation-delay: 0.5s;
+}
+
+.twentytwo {
+  -webkit-animation: moving 5s infinite;
+  animation: moving 2s infinite;
+  color: #ff7b90;
+  animation-delay: 0.25s;
+}
+
+@media screen and (max-width: 1100px) {
+  .jumbo-container h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .jumbo-container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .jumbo-container h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .jumbo-container h1 {
+    font-size: 1.5rem;
+  }
+}

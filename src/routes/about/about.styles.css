@@ -1,0 +1,62 @@
+.about-container {
+  background-image: url(bg_pink.jpg);
+  min-height: 92vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-section {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 30px 0 0 0;
+  margin: 0;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hunter-section,
+.keller-section {
+  min-width: 100%;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.about-section img {
+  max-width: 200px;
+  border-radius: 50%;
+  float: left;
+  filter: grayscale(100%);
+  margin: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .about-section h1 {
+    font-size: 36px;
+  }
+  .about-section img {
+    float: none;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .about-section h2,
+  .about-section h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hunter-section,
+  .keller-section {
+    margin-bottom: 25px;
+  }
+}

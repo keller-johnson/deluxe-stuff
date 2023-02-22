@@ -1,39 +1,55 @@
 import { Outlet } from "react-router-dom";
-import Directory from "../../components/directory/directory.component";
+import { Link } from "react-router-dom";
+import "./home.styles.css";
 
 const Home = () => {
-  const categories = [
-    {
-      id: 1,
-      title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
-    },
-    {
-      id: 2,
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
-    },
-    {
-      id: 3,
-      title: "sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
-    },
-    {
-      id: 4,
-      title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
-    },
-    {
-      id: 5,
-      title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-    },
-  ];
-
   return (
-    <div>
+    <div className="home-container">
       <Outlet />
-      <Directory categories={categories} />
+      <div id="jumbotron" className="jumbo-container">
+        <h1>
+          <div className="warm">
+            <span className="one">W</span>
+            <span className="two">A</span>
+            <span className="three">R</span>
+            <span className="four">M</span>
+            <span>&nbsp;</span>
+            <span className="five">U</span>
+            <span className="six">P</span>
+            <span className="seven">S</span>
+            <span>&nbsp;</span>
+          </div>
+
+          <div className="by">
+            <span className="eight">by</span>
+          </div>
+
+          <span>&nbsp;</span>
+          <div className="hunter">
+            <span className="nine">H</span>
+            <span className="ten">U</span>
+            <span className="eleven">N</span>
+            <span className="twelve">T</span>
+            <span className="thirteen">E</span>
+            <span className="fourteen">R</span>
+            <span className="fifteen">O</span>
+            <span className="sixteen">G</span>
+            <span className="seventeen">E</span>
+            <span className="eightteen">N</span>
+            <span className="nineteen">E</span>
+            <span className="twenty">O</span>
+            <span className="twentyone">U</span>
+            <span className="twentytwo">S</span>
+          </div>
+        </h1>
+        <h2>
+          222 unique collectible pieces of art that grant you access to
+          Hunterogeneous world stored on the Ethereum blockchain.
+        </h2>
+        <Link className="nav-link" to="/mint">
+          MINT
+        </Link>
+      </div>
     </div>
   );
 };

@@ -1,23 +1,45 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import { ReactComponent as CrownLogo } from "../../assets/crown.svg";
 import "./navigation.styles.scss";
 const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          <CrownLogo className="logo" />
+          <img src="eye.png" className="logo" />
         </Link>
-        <div className="link-container">
-          <Link className="nav-link" to="/shop">
-            SHOP
+
+        <div className="links-container">
+          <Link className="nav-link" to="/about">
+            About
           </Link>
-          <Link className="nav-link" to="/sign-in">
-            SIGN IN
-          </Link>
+
+          <a
+            href="https://www.hunterogeneous.com/"
+            className="nav-link"
+            target="_blank"
+          >
+            <i className="fa-sharp fa-solid fa-store"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/hunterogeneous"
+            target="_blank"
+            className="nav-link"
+          >
+            <i className="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/hunterogeneous"
+            className="nav-link"
+            target="_blank"
+          >
+            <i className="fa-brands fa-twitter"></i>
+          </a>
         </div>
       </div>
+
       <Outlet />
     </Fragment>
   );

@@ -1,0 +1,93 @@
+.mint-page {
+  background-image: url("bg.jpg");
+  min-height: 92vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.mint-container {
+  max-width: 1000px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.mint-container h2 {
+  color: white;
+  text-align: center;
+}
+
+#connect-wallet {
+  background: rgba(241, 92, 206, 1);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.mint-title {
+  width: 100%;
+  text-align: center;
+  height: 150px;
+}
+
+img {
+  max-width: 400px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.one-mint {
+  color: #e3f1fe;
+}
+
+.two-mint {
+  color: #f5e432;
+}
+
+.three-mint {
+  color: #008ec0;
+}
+
+.four-mint {
+  color: #fe7aa1;
+}
+
+#mint-button {
+  display: block;
+  max-width: 500px;
+  width: 60%;
+  padding: 20px;
+  margin: 5px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px #666;
+}
+
+.mint-button1 {
+  background: #e1922d;
+}
+.mint-button2 {
+  background: #61a631;
+}
+.mint-button3 {
+  background: #ff7b90;
+}
+.mint-button4 {
+  background: #3fc6da;
+}
+.mint-button5 {
+  background: #a73bde;
+}
