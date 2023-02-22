@@ -12,7 +12,7 @@ const Mint = () => {
 
   async function connectWallet() {
     const web3Modal = new Web3Modal({
-      network: "goerli", // change to the network you're using
+      network: "mainnet", // change to the network you're using
       cacheProvider: true,
       providerOptions: {},
     });

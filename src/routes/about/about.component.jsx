@@ -28,14 +28,14 @@ const About = () => {
           <h2>Keller Johnson</h2>
           <h3>Developer / San Diego / 33</h3>
           <p>
-            Keller Johnson is a Web Developer with a passion for technology and
-            all things digital. He has a strong interest in cryptocurrency and
-            non-fungible tokens (NFTs), and enjoys exploring the intersection of
-            technology and art. In his free time, Keller can often be found
-            tinkering with the latest developments in web and programming, as
-            well as spending time with his beloved dog, Loki. He is always
-            looking for new ways to combine his love for technology and
-            creativity, making him a valuable asset to any team.
+            Keller Johnson is a junior Web Developer with a passion for
+            technology and all things digital. He has a strong interest in
+            cryptocurrency and non-fungible tokens (NFTs), and enjoys exploring
+            the intersection of technology and art. In his free time, Keller can
+            often be found tinkering with the latest developments in web and
+            programming, as well as spending time with his beloved dog, Loki. He
+            is always looking for new ways to combine his love for technology
+            and creativity, making him a valuable asset to any team.
           </p>
         </div>
       </div>
