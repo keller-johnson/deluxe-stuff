@@ -68,7 +68,7 @@ const Mint = () => {
           <span className="three-mint">N</span>
           <span className="four-mint">T</span>
         </h1>
-        <button id="connect-wallet" onClick={connectWallet}>
+        <button className="hidden" id="connect-wallet" onClick={connectWallet}>
           {(provider && "connected") || (!provider && "connect wallet")}
         </button>
         <h2>MINT IS NOT LIVE YET.</h2>

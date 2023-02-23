@@ -77,6 +77,10 @@ img {
   cursor: pointer;
 }
 
+#mint-button:hover {
+  filter: brightness(50%);
+}
+
 .mint-button1 {
   background: #e1922d;
 }
@@ -91,4 +95,8 @@ img {
 }
 .mint-button5 {
   background: #a73bde;
+}
+
+.hidden {
+  display: none;
 }
