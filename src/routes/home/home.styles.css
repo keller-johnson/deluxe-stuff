@@ -264,3 +264,8 @@ body {
     font-size: 1.5rem;
   }
 }
+
+.soldout {
+  outline: 1px solid red;
+  text-align: center;
+}

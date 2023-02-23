@@ -46,9 +46,7 @@ const Home = () => {
           222 unique collectible pieces of art that grant you access to
           Hunterogeneous world stored on the Ethereum blockchain.
         </h2>
-        <Link className="nav-link" to="/mint">
-          MINT
-        </Link>
+        <h3 className="soldout">SOLD OUT</h3>
       </div>
     </div>
   );
