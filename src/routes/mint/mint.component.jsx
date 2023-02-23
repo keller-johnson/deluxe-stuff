@@ -36,7 +36,6 @@ const Mint = () => {
       const ethAmount = ethers.utils.parseEther(
         (0.069 * numTokens).toFixed(3).toString()
       ); // 0.069 ETH per token
-      console.log(ethAmount);
       const signer = provider.getSigner();
       const owner = await signer.getAddress();
 
@@ -72,7 +71,7 @@ const Mint = () => {
         <button id="connect-wallet" onClick={connectWallet}>
           {(provider && "connected") || (!provider && "connect wallet")}
         </button>
-        <h2>Select how many Hunterogeneous pieces you want.</h2>
+        <h2>MINT IS NOT LIVE YET.</h2>
         <button
           id="mint-button"
           className="mint-button1"
