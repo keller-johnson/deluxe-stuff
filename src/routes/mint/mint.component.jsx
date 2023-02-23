@@ -5,7 +5,7 @@ import abi from "./abi.json";
 import "./mint.styles.css";
 
 const Mint = () => {
-  const contractAddress = "0xc72F49F971A1194D0d70974519e977800A9e8232"; // The address of the deployed contract
+  const contractAddress = "0x988328306a8EB5C6DD64A78703353Ad975875fB2"; // The address of the deployed contract
   const contract = new ethers.Contract(contractAddress, abi);
 
   const [provider, setProvider] = useState(null);
@@ -32,7 +32,6 @@ const Mint = () => {
 
     try {
       const tokenAmount = numTokens;
-      console.log((69 * numTokens).toFixed(3));
       const ethAmount = ethers.utils.parseEther(
         (0.069 * numTokens).toFixed(3).toString()
       ); // 0.069 ETH per token
@@ -60,7 +59,7 @@ const Mint = () => {
   }
 
   return (
-    <div className="mint-page hidden">
+    <div className="mint-page">
       <div className="mint-container">
         <h1 className="mint-title">
           <span className="one-mint">M</span>
@@ -68,41 +67,41 @@ const Mint = () => {
           <span className="three-mint">N</span>
           <span className="four-mint">T</span>
         </h1>
-        <button className="hidden" id="connect-wallet" onClick={connectWallet}>
+        <button id="connect-wallet" onClick={connectWallet}>
           {(provider && "connected") || (!provider && "connect wallet")}
         </button>
-        <h2>MINT IS NOT LIVE YET.</h2>
+        <h2>Choose how many NFTs you want.</h2>
         <button
           id="mint-button"
-          className="mint-button1 hidden"
+          className="mint-button1"
           onClick={() => mintTokens(1)}
         >
           One
         </button>
         <button
           id="mint-button"
-          className="mint-button2 hidden"
+          className="mint-button2"
           onClick={() => mintTokens(2)}
         >
           Two
         </button>
         <button
           id="mint-button"
-          className="mint-button3 hidden"
+          className="mint-button3"
           onClick={() => mintTokens(3)}
         >
           Three
         </button>
         <button
           id="mint-button"
-          className="mint-button4 hidden"
+          className="mint-button4"
           onClick={() => mintTokens(4)}
         >
           Four
         </button>
         <button
           id="mint-button"
-          className="mint-button5 hidden"
+          className="mint-button5"
           onClick={() => mintTokens(5)}
         >
           Five
