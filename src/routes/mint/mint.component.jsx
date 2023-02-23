@@ -60,7 +60,7 @@ const Mint = () => {
   }
 
   return (
-    <div className="mint-page">
+    <div className="mint-page hidden">
       <div className="mint-container">
         <h1 className="mint-title">
           <span className="one-mint">M</span>
@@ -74,35 +74,35 @@ const Mint = () => {
         <h2>MINT IS NOT LIVE YET.</h2>
         <button
           id="mint-button"
-          className="mint-button1"
+          className="mint-button1 hidden"
           onClick={() => mintTokens(1)}
         >
           One
         </button>
         <button
           id="mint-button"
-          className="mint-button2"
+          className="mint-button2 hidden"
           onClick={() => mintTokens(2)}
         >
           Two
         </button>
         <button
           id="mint-button"
-          className="mint-button3"
+          className="mint-button3 hidden"
           onClick={() => mintTokens(3)}
         >
           Three
         </button>
         <button
           id="mint-button"
-          className="mint-button4"
+          className="mint-button4 hidden"
           onClick={() => mintTokens(4)}
         >
           Four
         </button>
         <button
           id="mint-button"
-          className="mint-button5"
+          className="mint-button5 hidden"
           onClick={() => mintTokens(5)}
         >
           Five
