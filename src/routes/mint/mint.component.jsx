@@ -32,7 +32,7 @@ const Mint = () => {
 
     try {
       const tokenAmount = numTokens;
-      console.log((0.069 * numTokens).toFixed(3));
+      console.log((69 * numTokens).toFixed(3));
       const ethAmount = ethers.utils.parseEther(
         (0.069 * numTokens).toFixed(3).toString()
       ); // 0.069 ETH per token
