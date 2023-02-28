@@ -40,14 +40,31 @@ body {
   text-decoration: none;
   padding: 20px;
   display: block;
-  margin: 25px auto;
-  width: 150px;
+  margin: 15px auto;
+  width: 400px;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 5px;
   letter-spacing: 1px;
   font-size: 1.25rem;
-  color: rgb(135, 20, 108);
-  background: #85ec3b;
+  color: #fff;
+}
+
+a.button-one {
+  background: #a73bde;
+}
+
+a.button-two {
+  background: #61a631;
+}
+
+a.button-three {
+  background: #ff7b90;
+}
+a.button-four {
+  background: #e1922d;
+}
+a.button-five {
+  background: #3fc6da;
 }
 
 .jumbo-container a:hover {

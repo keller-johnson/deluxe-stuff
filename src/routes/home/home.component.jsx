@@ -42,11 +42,38 @@ const Home = () => {
             <span className="twentytwo">S</span>
           </div>
         </h1>
-        <h2>
-          222 unique collectible pieces of art that grant you access to
-          Hunterogeneous world stored on the Ethereum blockchain.
-        </h2>
-        <h3 className="soldout">SOLD OUT</h3>
+
+        <Link className="nav-link button-one" to="/about">
+          About
+        </Link>
+        <a
+          href="https://opensea.io/collection/warmupsnft"
+          target="_blank"
+          className="button-two"
+        >
+          Opensea
+        </a>
+        <a
+          href="https://www.hunterogeneous.com/"
+          target="_blank"
+          className="button-three"
+        >
+          Store
+        </a>
+        <a
+          href="https://www.instagram.com/hunterogeneous/"
+          target="_blank"
+          className="button-four"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://twitter.com/hunterogeneous"
+          target="_blank"
+          className="button-five"
+        >
+          Twitter
+        </a>
       </div>
     </div>
   );
